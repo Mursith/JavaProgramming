@@ -13,10 +13,10 @@ class Test
     for (int i=0;i<n;i++){
         arr[i]=sc.nextInt();
     }
-    System.out.println("Array elements are :");
-    for (int i=0;i<n;i++){
-        System.out.println(arr[i]);
-    }
+//    System.out.println("Array elements are :");
+//    for (int i=0;i<n;i++){
+//        System.out.println(arr[i]);
+//    }
     Arrays.sort(arr);
     int y= arr.length;
     for (int x: arr){
